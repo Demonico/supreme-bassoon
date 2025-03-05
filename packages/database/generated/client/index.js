@@ -128,7 +128,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "/home/kirin/upgrading-turborepo/next-nest-monorepo-demo/packages/database/generated/client",
+      "value": "/home/kirin/DSD/supreme-bassoon/packages/database/generated/client",
       "fromEnvVar": null
     },
     "config": {
@@ -142,7 +142,7 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "/home/kirin/upgrading-turborepo/next-nest-monorepo-demo/packages/database/prisma/schema.prisma",
+    "sourceFilePath": "/home/kirin/DSD/supreme-bassoon/packages/database/prisma/schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {

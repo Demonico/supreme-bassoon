@@ -7,7 +7,11 @@
   "license": "UNLICENSED",
   "scripts": {
     "dev": "turbo run dev",
+    "dev:api": "turbo run dev --filter=\"api\"",
+    "dev:web": "turbo run dev --filter=\"web\"",
     "build": "turbo run build",
+    "build:packages": "turbo run build --filter=\"./packages/*\"",
+    "db:generate": "turbo run db:generate",
     "test": "turbo run test",
     "test:e2e": "turbo run test:e2e",
     "lint": "turbo run lint",
