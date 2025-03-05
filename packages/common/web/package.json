@@ -14,7 +14,8 @@
   "dependencies": {
     "next": "^15.2.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "@repo/common": "*"
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
@@ -23,7 +24,6 @@
     "@repo/db": "*",
     "@repo/eslint-config": "*",
     "@repo/jest-config": "*",
-    "@repo/schemas": "*",
     "@repo/typescript-config": "*",
     "@testing-library/jest-dom": "^6.4.5",
     "@testing-library/react": "^16.2.0",

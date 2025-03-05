@@ -14,7 +14,7 @@ import {
   UpdateUserSchema,
   type CreateUserInput,
   type UpdateUserInput,
-} from '@repo/schemas';
+} from '@repo/common/schemas';
 import { ZodValidationPipe } from 'src/pipes/zod-validation-pipe';
 
 @Controller('users')
