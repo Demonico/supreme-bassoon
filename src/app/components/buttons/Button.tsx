@@ -1,4 +1,7 @@
+'use client';
+
 import { ReactNode } from 'react';
+import MotionButtonWrapper from './MotionButtonWrapper';
 
 interface ButtonProps {
   children: ReactNode;
@@ -26,10 +29,12 @@ export default function Button({
   };
 
   return (
-    <button
-      className={`bg-blue-600 text-white rounded-md shadow-lg hover:bg-blue-800 transition cursor-pointer ${sizeClasses[size]} ${weightClasses[fontWeight]}`}
-    >
-      {children}
-    </button>
+    <MotionButtonWrapper>
+      <button
+        className={`bg-blue-600 text-white rounded-md shadow-lg hover:bg-blue-800 transition cursor-pointer ${sizeClasses[size]} ${weightClasses[fontWeight]}`}
+      >
+        {children}
+      </button>
+    </MotionButtonWrapper>
   );
 }
