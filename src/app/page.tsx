@@ -1,3 +1,9 @@
+import HomePageComponent from '@/features/home/components/HomePageComponent';
+
 export default function Page() {
-  return <div>Hello World!</div>;
+  return (
+    <>
+      <HomePageComponent />
+    </>
+  );
 }
