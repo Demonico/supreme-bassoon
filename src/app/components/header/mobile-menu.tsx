@@ -3,10 +3,10 @@
 import { useEffect, useRef } from 'react';
 import { faClose } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import NavLinks from './NavLinks';
+import NavLinks from './nav-links';
 import { AnimatePresence, motion } from 'framer-motion';
-import MotionButtonWrapper from '../buttons/MotionButtonWrapper';
-import { clientMobileNavItems } from './navItems';
+import MotionButtonWrapper from '../buttons/motion-button-wrapper';
+import { clientMobileNavItems } from './nav-items';
 
 interface MobileMenuProps {
   handleMenuClick: () => void;

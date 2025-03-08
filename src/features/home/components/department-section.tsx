@@ -1,4 +1,4 @@
-import DepartmentCard from './DepartmentCard';
+import DepartmentCard from './department-card';
 
 export default function DepartmentSection() {
   const departments = [

@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import MotionButtonWrapper from '../buttons/MotionButtonWrapper';
+import MotionButtonWrapper from '../buttons/motion-button-wrapper';
 
 type NavDataItem = {
   label: string;

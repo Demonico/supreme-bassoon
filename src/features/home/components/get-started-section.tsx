@@ -1,4 +1,4 @@
-import Button from '@/app/components/buttons/Button';
+import Button from '@/app/components/buttons/button';
 
 export default function GetStartedSection() {
   return (
