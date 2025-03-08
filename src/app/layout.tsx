@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import { Sofia_Sans } from 'next/font/google';
 import './globals.css';
-import Header from './components/header/Header';
-import Footer from './components/Footer';
+import Header from './components/header/header';
+import Footer from './components/footer';
 
 const sofiaSans = Sofia_Sans({
   subsets: ['latin'],
