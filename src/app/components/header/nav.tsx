@@ -1,12 +1,12 @@
 'use client';
 
 import { useState } from 'react';
-import NavLinks from './NavLinks';
+import NavLinks from './nav-links';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons/faBars';
-import MobileMenu from './MobileMenu';
-import MotionButtonWrapper from '../buttons/MotionButtonWrapper';
-import { clientNavItems } from './navItems';
+import MobileMenu from './mobile-menu';
+import MotionButtonWrapper from '../buttons/motion-button-wrapper';
+import { clientNavItems } from './nav-items';
 
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

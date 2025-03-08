@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import Nav from './Nav';
+import Nav from './nav';
 import { motion } from 'framer-motion';
 
 export default function Header() {

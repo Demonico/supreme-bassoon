@@ -1,7 +1,7 @@
 'use client';
 
 import { ReactNode } from 'react';
-import MotionButtonWrapper from './MotionButtonWrapper';
+import MotionButtonWrapper from './motion-button-wrapper';
 
 interface ButtonProps {
   children: ReactNode;
